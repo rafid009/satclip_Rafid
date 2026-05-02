@@ -1,5 +1,5 @@
 from huggingface_hub import hf_hub_download
-from satclip.load import get_satclip
+from load import get_satclip
 import torch
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
